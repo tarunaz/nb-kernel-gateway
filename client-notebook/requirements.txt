@@ -1,2 +1,2 @@
 #nb2kg
-git+https://github.com/jupyter-incubator/nb2kg.git#egg=nb2kg
+git+https://github.com/jupyter-on-openshift/nb2kg.git#egg=nb2kg
