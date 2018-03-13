@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -x
+
+set -eo pipefail
+
+/opt/app-root/builder/assemble
+
+jupyter serverextension enable --py nb2kg --sys-prefix
+
+fix-permissions /opt/app-root
