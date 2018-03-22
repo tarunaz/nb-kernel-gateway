@@ -1,8 +1,5 @@
 import os
 
-# Setup Jupyter Lab
-c.KubeSpawner.environment = os.environ.get('JUPYTER_ENABLE_LAB', 'true')
-
 from jupyterhub.spawner import LocalProcessSpawner
 
 class DefaultUserLocalProcessSpawner(LocalProcessSpawner):
